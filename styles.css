@@ -27,17 +27,17 @@ body {
   button {
     padding: 10px 20px;
     font-size: 18px;
-    background-color: #4CAF50;
+    background-color: #3498db; /* Changed from #4CAF50 to #3498db for blue color */
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
+}
+
+button:hover {
+    background-color: #2980b9; /* Changed from #45a049 to #2980b9 for hover color */
+}
   
   .dice {
     width: 120px;
